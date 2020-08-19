@@ -227,4 +227,6 @@ Device (\_SB.PCI0.LPCB.EC0)
 			Debug = Concatenate("EC: Other: ", ToHexString(Local0))
 		}
 	}
+
+	#include "battery_thresholds.asl"
 }

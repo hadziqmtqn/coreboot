@@ -125,6 +125,11 @@ Field (ERAM, ByteAcc, Lock, Preserve)
 	SYAP,   16,
 	CFSP,   16,
 	CPUE,   16,
+	Offset (0xBC),
+	BTL0,   8,      /* BAT0 charging thresholds */
+	BTH0,   8,
+	BTL1,   8,      /* BAT1 charging thresholds */
+	BTH1,   8,
 	Offset (0xC6),
 	Offset (0xC7),
 	VGAT,   8,
